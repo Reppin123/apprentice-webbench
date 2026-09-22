@@ -1,0 +1,36 @@
+{
+  "pilot": {
+    "selected": 10,
+    "counts": {
+      "Success": 0,
+      "Failure": 0,
+      "BadTask": 0,
+      "Blocked": 0,
+      "Ungraded": 0,
+      "NotRun": 10
+    },
+    "complete": false,
+    "started": 0,
+    "success_rate_all_selected": null,
+    "success_rate_feasible": null,
+    "missing_public_recordings": 0,
+    "independently_reviewed": 0
+  },
+  "formal": {
+    "selected": 323,
+    "counts": {
+      "Success": 0,
+      "Failure": 0,
+      "BadTask": 0,
+      "Blocked": 0,
+      "Ungraded": 0,
+      "NotRun": 323
+    },
+    "complete": false,
+    "started": 0,
+    "success_rate_all_selected": null,
+    "success_rate_feasible": null,
+    "missing_public_recordings": 0,
+    "independently_reviewed": 0
+  }
+}

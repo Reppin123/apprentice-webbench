@@ -1,0 +1,73 @@
+{
+  "upstream_repository": "https://github.com/Halluminate/WebBench",
+  "upstream_commit": "ea7a1628443321363989f354401f0653e0cba6f4",
+  "selection": "All 323 rows of results/operatorhitlfinal.csv; original prompts unchanged.",
+  "task_count": 323,
+  "categories": {
+    "READ": 224,
+    "DELETE": 26,
+    "CREATE": 46,
+    "UPDATE": 23,
+    "FILE_MANIPULATION": 4
+  },
+  "pilot_selection": "First 10 READ tasks outside the 323 IDs, one per hostname, sorted by SHA256(seed + ID).",
+  "pilot_seed": "apprentice-webbench-pilot-v1:",
+  "pilot_ids": [
+    "1349",
+    "535",
+    "116",
+    "1370",
+    "1773",
+    "2501",
+    "108",
+    "966",
+    "579",
+    "902"
+  ],
+  "upstream_full_csv_rows": 2647,
+  "upstream_hitl_csv_rows": 315,
+  "prompt_mismatches": [
+    {
+      "agent": "rtrvr_2025",
+      "task_id": "364",
+      "original": "Register a new user account on Dick\u2019s Sporting Goods by filling out the required personal information and confirm the registration via the on-screen confirmation message.\nOnly use http://dickssportinggoods.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site.",
+      "changed": "Extract current location"
+    }
+  ],
+  "sources": {
+    "results/operatorhitlfinal.csv": {
+      "url": "https://raw.githubusercontent.com/Halluminate/WebBench/ea7a1628443321363989f354401f0653e0cba6f4/results/operatorhitlfinal.csv",
+      "sha256": "9bb7e0d31b7dd9a8cc43a379efc1c32ffbef6d6acd070aa623fb408848f33440"
+    },
+    "webbenchfinal.csv": {
+      "url": "https://raw.githubusercontent.com/Halluminate/WebBench/ea7a1628443321363989f354401f0653e0cba6f4/webbenchfinal.csv",
+      "sha256": "fd5311a38bdb6f941e8f544150735656c114d76fbfb17193da973d5de0165217"
+    },
+    "webbench_hitl_final.csv": {
+      "url": "https://raw.githubusercontent.com/Halluminate/WebBench/ea7a1628443321363989f354401f0653e0cba6f4/webbench_hitl_final.csv",
+      "sha256": "2ae75d989f08472478b6df1469c4c3d48b7306d175b84245869840220802b3cd"
+    },
+    "results/anthropicfinal.csv": {
+      "url": "https://raw.githubusercontent.com/Halluminate/WebBench/ea7a1628443321363989f354401f0653e0cba6f4/results/anthropicfinal.csv",
+      "sha256": "d7021b5402039784fc17acd26aac24b6c8d405546c5b0e927e8566b6e2042306"
+    },
+    "results/openaicuafinal.csv": {
+      "url": "https://raw.githubusercontent.com/Halluminate/WebBench/ea7a1628443321363989f354401f0653e0cba6f4/results/openaicuafinal.csv",
+      "sha256": "bdae0ec40b8cddcc5ad2b5be0cb264eee575a5b0450b3de4d841add738a2e38f"
+    },
+    "results/rtrvrfinal.csv": {
+      "url": "https://raw.githubusercontent.com/Halluminate/WebBench/ea7a1628443321363989f354401f0653e0cba6f4/results/rtrvrfinal.csv",
+      "sha256": "44671dbb7ab9ff1b76a506e71e13a81766cf2eca538207752c53cd8d7f2cc6cb"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/Halluminate/WebBench/ea7a1628443321363989f354401f0653e0cba6f4/LICENSE",
+      "sha256": "96804aa272fe40cdfb8b5c8f4d1d94757bcfaf1bf5596fb829214843d2371e58"
+    }
+  },
+  "file_sha256": {
+    "historical_labels.csv": "dd0e6148cca8438c47103b7b70eba4a00ce56a7c47eae6fa75aaecce9123c50d",
+    "pilot.csv": "b36748da03b14089405fae2489778952caf9c5b8ad7798566d56374293f6f87d",
+    "tasks.csv": "85ed63a19a44c7c6ca4394b7cfd357b479ade58a65f20823b842e64386c1a203",
+    "upstream-LICENSE": "96804aa272fe40cdfb8b5c8f4d1d94757bcfaf1bf5596fb829214843d2371e58"
+  }
+}

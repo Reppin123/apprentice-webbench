@@ -1,0 +1,21 @@
+ID,Starting URL,Category,Difficulty,Task
+1349,https://www.pinterest.com,READ,,"Search for the Pinterest help article on linking Instagram to your Pinterest profile and list the first three instructions provided.
+Only use http://pinterest.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+535,https://flickr.com,READ,,"Browse the Explore page and extract the titles of the top 5 most favorited photos currently trending.
+Only use http://flickr.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+116,https://www.asos.com,READ,,"Navigate to the size guide in the women's section and list the body measurements provided for a UK size 12 item.
+Only use http://asos.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+1370,https://www.playstation.com/en-us,READ,,"Go to the digital wallet information area and list the payment options available for topping up.
+Only use http://playstation.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+1773,https://www.texas.gov,READ,,"Use the site’s search functionality to look up emergency management on Texas.gov and list the state agencies associated with it.
+Only use http://texas.gov to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+2501,https://www.express.co.uk,READ,,"Use the search bar on Express to locate articles related to “COVID-19 updates” and output the titles along with publication timestamps of the first 5 results.
+Only use https://www.express.co.uk/ to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+108,https://www.apple.com,READ,,"Locate the Apple Store locator and find the nearest three Apple stores to New York, New York, Zip Code 10003. For each store, note the address, phone number, and operating hours.
+Only use http://apple.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+966,https://www.kmart.com.au,READ,,"Locate the Customer FAQ section on the website and list the top 3 most frequently asked questions along with their answers regarding the return policy.
+Only use http://kmart.com.au/ to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+579,https://www.foxnews.com,READ,,"Navigate to the ""Politics"" section and locate the latest article about the 2024 Presidential Election; provide the article's headline, publication date, and a brief summary of its content.
+Only use http://foxnews.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
+902,https://www.istockphoto.com,READ,,"Use the iStock search bar to find stock photos of ""autumn forest"" and list the titles of the first 5 images that appear.
+Only use http://istockphoto.com to achieve the task. Don't go to any other site. The task is achievable with just navigation from this site."
