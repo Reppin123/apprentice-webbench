@@ -15,7 +15,13 @@ If you cloned this repository elsewhere, substitute the local repository and App
 
 Select the model you want to evaluate in Apprentice and note its exact identifier. Keep that model and build fixed through the pilot and formal campaign. The helper records source commits, whether the trees are modified, and a hash of their contents. This describes the working sources; the launch step above is needed to ensure those sources are actually running. If you improve Apprentice after the pilot, begin a separately named campaign with a new public configuration; do not mix builds.
 
-## 2. Check the recorder once
+## 2. Check Chrome and the recorder before starting the pilot
+
+Open your normal Chrome profile and visit `chrome://inspect/#remote-debugging`. Confirm that **Allow remote debugging for this browser instance** is enabled. Apprentice's normal browser tools attach to this running profile using Chrome's Allow dialog. Do not add `--remote-debugging-port` flags or create a second debugging profile for this workflow.
+
+In a separate Apprentice conversation, send: **“Connection check only: call browser_tabs once and report whether it succeeds. Do not navigate, restart Chrome, launch another profile, or change settings. If it fails, report the error and stop.”** Click **Allow** in Chrome when prompted. Proceed only after Apprentice confirms a successful connection. This is a setup check, not a pilot or scored task. A Chrome restart or a new agent connection can require approval again.
+
+If Chrome is unreachable, stop the setup check and resolve that first; do not use a benchmark task as the connection test. If a pilot attempt has already started, retain its failed attempt and recording rather than silently restarting it.
 
 Keep Apprentice and Chrome on the display being recorded. Turn off distracting notifications and keep unrelated private windows off that display.
 
